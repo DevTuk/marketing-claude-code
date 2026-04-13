@@ -1,0 +1,41 @@
+# Generated reports (local output files)
+/AUDITORIA-MARKETING.md
+/INFORME-MARKETING.md
+/INFORME-MARKETING-*.pdf
+/INFORME-MARKETING-*.md
+/INFORME-COMPETIDORES.md
+/COPY-SUGERENCIAS.md
+/SECUENCIAS-EMAIL.md
+/CALENDARIO-REDES.md
+/CAMPANAS-ADS.md
+/ANALISIS-FUNNEL.md
+/LANDING-CRO.md
+/PLAYBOOK-LANZAMIENTO.md
+/PROPUESTA-CLIENTE.md
+/AUDITORIA-SEO.md
+/VOZ-MARCA.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Temp
+*.tmp
+*.bak
