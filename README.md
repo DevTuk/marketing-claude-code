@@ -52,14 +52,12 @@ El sistema no te devuelve una puntuación y ya está. Te da prioridades ordenada
 
 ### Un solo comando
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/victorperez22/marketing-claude-code/main/install.sh | bash
-```
+
 
 ### Manual
 
 ```bash
-git clone https://github.com/victorperez22/marketing-claude-code.git
+git clone --depth 1 https://github.com/DevTuk/marketing-claude-code.git
 cd marketing-claude-code
 ./install.sh
 ```
