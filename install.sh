@@ -26,7 +26,7 @@ else
     # Ejecucion remota via curl | bash -- clonamos el repo
     echo -e "${YELLOW}Instalacion remota detectada. Clonando repositorio...${NC}"
     TEMP_DIR=$(mktemp -d)
-    git clone --depth 1 https://github.com/victorperez22/marketing-claude-code.git "$TEMP_DIR/marketing-claude-code" 2>/dev/null
+    git clone --depth 1 https://github.com/DevTuk/marketing-claude-code.git"$TEMP_DIR/marketing-claude-code" 2>/dev/null
     if [ $? -ne 0 ]; then
         echo -e "${RED}[X] Error al clonar el repositorio.${NC}"
         exit 1
